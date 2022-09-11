@@ -2,13 +2,13 @@
 
 
 /**
- *  main - Entry point
+ * main - Entry point
  *
  *  Return: Always 0 (success)
  */
 int main(void)
 {
-	char 1;
+	char l;
 
 	l = 'a';
 	while (l <= 'z')
