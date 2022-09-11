@@ -20,7 +20,7 @@ int main(void)
 		i++;
 	}
 	l = 'a';
-	while (l <== 'f')
+	while (l <= 'f')
 	{
 		putchar(l);
 		l++;
