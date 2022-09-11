@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style for the main function goes here */
+/* betty style dor for the main function goes here */
 /**
  *
  * main - Entry point
@@ -14,7 +14,7 @@ int main(void)
 	int n;
 	int r;
 
-	standtime(0);
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	r = n % 10;
