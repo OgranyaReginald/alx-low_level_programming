@@ -1,21 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - entry point
- *
- * Description: prints the alphabet with _putchar
+ * print_alphabet - print alphabet
  *
  * Return: void
  */
-
-
 void print_alphabet(void)
 {
-	char c;
+	char letter = 'a';
 
-	for (c = 'a'; c <= 'm'; c++)
+	while (letter <= 'z')
 	{
-		_putchar(c);
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
