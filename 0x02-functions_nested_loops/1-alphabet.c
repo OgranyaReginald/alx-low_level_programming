@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet 
+ *print_alphabet - print alphabet 
  *
- * Description: prints alphabet with putchar
+ *Description: prints alphabet with putchar
  *
- * Return: void
+ *Return: void
  */
 void print_alphabet(void)
 {
