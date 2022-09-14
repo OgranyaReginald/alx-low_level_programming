@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	unsigned lomg int sum3, sum5, sum;
-		int;
+	unsigned long int sum3, sum5, sum;
+		int 1;
 
 		sum3 = 0;
 		sum5 = 0;
@@ -16,7 +16,7 @@ int main(void)
 
 		for (i = 0; 1 < 1024; ++i)
 		{
-			if ((i % 3 )== 0)
+			if ((i % 3 ) == 0)
 			{
 				sum3 = sum3 + i;
 			} else if ((i % 5 ) == 0)
