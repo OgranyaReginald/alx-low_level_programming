@@ -1,1 +1,1 @@
-int _isalpha(int c);
+void print_alphabet(void);
