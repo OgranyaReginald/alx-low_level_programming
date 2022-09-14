@@ -2,6 +2,7 @@
  /**
   * _isalpha - checks for alphabeic character
   * @c: c is an ascii character
+  * Description: _isalpha
   * Return: 0 if c is a letter, 1 otherwise
   */
 int _isalpha(int c)
@@ -13,7 +14,7 @@ int _isalpha(int c)
 	else if (c >= 'A' && c <= 'Z')
 
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
