@@ -2,9 +2,12 @@
 #define MAIN_H
 
 /**
- * main - header file for prototype
+ * main - header file prototypes
  * void prototypes (void)
- * int prototypes
+ * int prototypes (int)
+ * @c: parameters
+ * Description: _putchar and others are return value
+ * Return: always 0
  */
 
 int _putchar(char c);
