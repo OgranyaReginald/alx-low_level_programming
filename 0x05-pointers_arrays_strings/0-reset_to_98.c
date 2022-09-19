@@ -1,23 +1,12 @@
 #include "main.h"
 
 /**
- * _strcat - appends src to the dest string
- *
- * @dest: string to append by src
- * @src: string to append to dest
- *
- * Return: address of dest
+ * reset_to_98 - a function that takes a pointer to an int as parameter
+ * and updates the value it points to to 98.
+ * @n: An integer input pointer
+ * Return: Nothing
  */
-char *_strcat(char *dest, char *src)
+void reset_to_98(int *n)
 {
-	int i, j;
-
-	i = j = 0;
-	while (*(dest + i))
-	i++;
-	while ((*(dest + i) = *(src + j)))
-	{
-	i++;
-	j++;												}
-	return (dest);
+	*n = 98;
 }
