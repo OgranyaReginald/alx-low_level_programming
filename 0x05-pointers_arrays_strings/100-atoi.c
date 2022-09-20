@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _atoi - a function that converts string to integer
+ * _atoi - a function that 
  * @s: An input string
- * Return: integer from conversion
+ * Return: integer 
  */
 int _atoi(char *s)
 {
@@ -12,7 +12,7 @@ int _atoi(char *s)
 	unsigned int total = 0;
 	char null_flag = 0;
 
-	while (*s)	
+	while (*s)
 	{											if (*s == '-')			
 		sign *= -1;
 			
