@@ -13,6 +13,7 @@ int _atoi(char *s)
 	char null_flag = 0;
 
 	while (*s)
+
 	{											if (*s == '-')			
 		sign *= -1;
 			
