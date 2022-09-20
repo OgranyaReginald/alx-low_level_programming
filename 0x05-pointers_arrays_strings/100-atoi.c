@@ -19,8 +19,14 @@ int _atoi(char *s)
 
 			if (*s >= '0' && *s <= '9')
 		{
-			null_flag = 1;									total = total * 10 + *s - '0';						}
-		else if (null_flag)	        							break;									s++;
+			null_flag = 1;
+
+			total = total * 10 + *s - '0';						}
+
+	else if (null_flag)
+		break;
+
+		s++;
 	}
 
 	if (sign < 0)
