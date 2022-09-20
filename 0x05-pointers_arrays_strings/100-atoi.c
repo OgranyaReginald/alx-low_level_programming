@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _atoi - a function that 
+* _atoi - a function that
  * @s: An input string
- * Return: integer 
+ * Return: integer
  */
 int _atoi(char *s)
 {
@@ -13,7 +13,8 @@ int _atoi(char *s)
 	char null_flag = 0;
 
 	while (*s)
-	{											if (*s == '-')					
+	{
+		if (*s == '-')					
 		sign *= -1;
 			
 			if (*s >= '0' && *s <= '9')	
