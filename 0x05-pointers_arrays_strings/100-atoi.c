@@ -12,8 +12,8 @@ int _atoi(char *s)
 	unsigned int total = 0;
 	char null_flag = 0;
 
-	while (*s)
-	{											if (*s == '-')
+	while (*s)	
+	{											if (*s == '-')			
 			sign *= -1;
 			
 			if (*s >= '0' && *s <= '9')	
